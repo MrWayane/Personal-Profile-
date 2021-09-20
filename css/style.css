@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 3%;
+    
+}
+#hero-section{
+    background: url(../Image/131499-orange-and-white-polygon-background-template-design.jpg);
+    background-repeat: no-repeat;
+}
+
+img{
+    width: 100%;
+    
+}
+.text-box h1{
+    font-size: 50px;
+    line-height: 3.5rem;
+    margin-bottom: 15px;
+}
+.text-box h3{
+    color: red;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.text-box p{
+        font-size: 15px;
+}
+
+.color-text{
+    color: maroon;
+}
+.color-button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 2% 3%;
+    background: linear-gradient(rgb(142, 236, 142), green);
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.image-box img{
+    width: 40%;
+}
+.image-box{
+    text-align: right;
+
+}
+.flex-half{
+    width: 50%;
+    }
+#big-dream .image-box{
+    text-align: left;
+}
+#big-dream{
+    background: url(../Image/abstract-orange-brochure-file-eps-format-34664749.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    
+}
+.experience-box{
+    width: 80%;
+    box-shadow: 1px 6px 20px #282829;
+    padding: 15px;
+}
+#experience{
+    padding: 50px 0;
+    background: url(../Image/bubble-shapes-bubble-bubbles-png-and-vector-332675.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 15%;
+    
+    
+    
+    
+}
+#experience h1{
+font-size: 50px;
+margin: 30px;
+}
+.full-stack{
+    border-left: 6px solid mediumblue;
+    
+}
+.baby-web{
+    border-left: 6px solid mediumvioletred;
+}
+
