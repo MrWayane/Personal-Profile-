@@ -70,7 +70,7 @@ img{
     
 }
 .experience-box{
-    width: 80%;
+    width: 65%;
     box-shadow: 1px 6px 20px #282829;
     padding: 15px;
 }
@@ -78,7 +78,7 @@ img{
     padding: 50px 0;
     background: url(../Image/bubble-shapes-bubble-bubbles-png-and-vector-332675.png);
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: top left;
     background-size: 15%;
     
     
@@ -89,11 +89,23 @@ img{
 font-size: 50px;
 margin: 30px;
 }
+ol{
+    margin-left: 5px;
+}
 .full-stack{
-    border-left: 6px solid mediumblue;
+    border-left: 6px solid transparent;
+    border-image:linear-gradient(blue, red);
+    border-image-slice: 1;
     
 }
 .baby-web{
-    border-left: 6px solid mediumvioletred;
+    border-left: 6px solid transparent;
+    border-image:linear-gradient(rgb(8, 100, 44), rgb(153, 163, 11));
+    border-image-slice: 1;
+}
+.professional-development{
+    border-left: 6px solid transparent;
+    border-image:linear-gradient(rgb(179, 106, 11), rgb(153, 163, 11));
+    border-image-slice: 1;
 }
 
